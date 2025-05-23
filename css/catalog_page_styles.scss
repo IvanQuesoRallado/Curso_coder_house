@@ -1,0 +1,104 @@
+#catalog_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#path_section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#page_num_section {
+    gap: 10px;
+    align-items: center;
+}
+
+.title_catalog {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+#sub_title_catalog {
+    font-family: Arial;
+    font-size: 15px;
+}
+
+#path_section {
+    display: inline-block;
+}
+
+#catalog_section {
+    padding-top: 20px;
+}
+
+#product_showing_section {
+    display: block;
+    padding-top: 50px;
+}
+
+#product_showing_section button {
+    display: block;
+}
+
+#product_showing_section h2 {
+    font-family: Arial;
+    font-size: 27px;
+}
+
+#product_showing_section button {
+    font-family: Arial;
+    font-size: 15px;
+    background-color: #ffffff;
+    border: 1.5px solid;
+    color: rgb(0, 0, 0);
+}
+
+.checkbox_div {
+    display: block;
+}
+
+#categorias_div {
+    display: block;
+}
+
+#categorias_div div {
+    padding-bottom: 10px;
+}
+
+#categorias_div input {
+    font-family: Arial;
+    font-size: 15px;
+    border: 1.5px solid #170707;
+    background-color: white;
+}
+
+#select_marca_div {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#select_marca_div input {
+    width: 20px;
+}
+
+#section_product_container {
+    display: flex;
+}
+
+.checkbox_div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.checkbox_filtrar {
+    width: 17px;
+    height: 17px;
+    border-radius: 4px;
+}

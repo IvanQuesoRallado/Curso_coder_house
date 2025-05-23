@@ -1,0 +1,57 @@
+main {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@import 'header_styles';
+@import 'footer_styles';
+@import 'main_page_styles';
+@import 'catalog_page_styles';
+@import 'form_pages_styles';
+@import 'product_section_styles';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.div_border {
+    width: 17%;
+    height: 100%;
+}
+
+main section div {
+    display: inline-block;
+}
+
+main h1 {
+    padding-top: 20px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 30px;
+}
+
+#main_section {
+    width: 100%;
+}
+
+.btn_class {
+    font-family: Arial;
+    padding: 3px 5px;
+    border: 1px solid #007BFF;
+    background-color: white;
+    color: #007BFF;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}

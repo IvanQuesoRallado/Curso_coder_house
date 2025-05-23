@@ -1,0 +1,202 @@
+
+
+.page-content-wrapper {
+    flex-grow: 1;
+    display: flex !important;
+    flex-direction: column !important;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+    padding-top: 30px;
+}
+
+
+.product-main-section {
+    display: flex !important;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto 40px auto;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.product-details-container {
+    display: flex !important; /* This one IS a flex container for its children (title, price etc) */
+    flex-direction: column !important;
+    flex: 1 1 auto !important; /* flex-grow, flex-shrink from previous */
+    min-width: 0;
+}
+
+.product-image-container {
+    display: block !important;
+    flex: 0 0 300px !important;
+}
+
+.product-image-container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #eee;
+    display: block;
+}
+
+.product-details-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#product_path {
+    font-size: 0.8em;
+    color: #777;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.product-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #333;
+}
+
+.price-container .currency {
+    font-size: 0.7em;
+    margin-right: 8px;
+    font-weight: normal;
+}
+
+.price-container .amount {
+    color: #000;
+}
+
+.actions-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.actions-container input[type="text"].quantity-input {
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.actions-container button.add-to-cart-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.actions-container button.add-to-cart-btn:hover {
+    background-color: #555;
+}
+
+.wishlist-icon {
+    font-size: 1.8em;
+    color: #555;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.doubt-section {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-right: 10px;
+}
+
+.doubt-section input[type="text"].doubt-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+    background-color: transparent;
+}
+
+.doubt-section img.doubt-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    opacity: 0.7;
+}
+
+.recommendations-section {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.recommendations-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.recommendations-grid {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 20px !important;
+}
+
+.recommendation-item {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center;
+    flex-grow: 1 !important;
+    flex-basis: calc((100% - 80px) / 5 - 1px) !important;
+    min-width: 140px !important;
+    padding: 10px;
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+
+.recommendation-item img {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.recommendation-item p.recommendation-name {
+    font-size: 0.9em;
+    color: #444;
+    margin-bottom: 5px;
+    min-height: 3em;
+}
+
+.recommendation-item .recommendation-price {
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+}
+
+.footer-iva-note {
+     width: 100%;
+     text-align: center;
+     margin-top: 20px;
+}
